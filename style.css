@@ -1,0 +1,152 @@
+body {
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #8B8B8B;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+h1 {
+    color: black;
+    font-size: 28px;
+    
+}
+
+h2 {
+    color: black;
+    font-size: 16px;
+    
+}
+
+.celek {
+    padding: 60px 20px;
+}
+
+
+.obrazek {
+    max-width: 350px;
+    margin: 0px auto;
+}
+
+.text {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.tlacitko {
+    width: max-content;
+    padding: 10px 20px;
+    color: white;
+    background-color: #407BFF;
+    border-radius: 20px;
+    margin: 10px auto 0px auto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sede {
+    background-color: #8B8B8B;
+}
+
+.blok {
+    background-color: white;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.ikona {
+    margin-right: 25px;
+}
+
+.uvodnitext {
+    margin-top: 30px;
+}
+
+@media (min-width: 640px) {
+    .tlacitka {
+        display: flex;
+        max-width: 435px;
+        margin: 0px auto;
+    }
+
+    .odrazky {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blok {
+        display: block;
+        flex: 0 0 calc(100% / 3 - 60px);
+        text-align: center;
+    }
+
+    .ikona {
+        margin: 10px 0px 20px 0px;
+    }
+
+    .text {
+        width: 550px;
+        margin: 80px auto 0px auto;
+    }
+
+    .uvodnitext {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .vrsek {
+        display: flex;
+    }
+
+    .uvod {
+        flex: 1 0 auto;
+    }
+
+    .obrazek {
+        order: 2;
+        padding-left: 80px;
+    }
+
+    .ck, .dnm {
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+    }
+
+    .prvni {
+        order: -1;
+    }
+
+    .text {
+        text-align: left;
+        margin: 40px 40px 0px 0px;
+    }
+
+    .ck .text { 
+        margin: 40px 0px 0px 60px;
+    }
+
+
+    .celek {
+        padding: 60px 80px;
+    }
+
+    
+
+
+
+
+
+
+
+
+}
